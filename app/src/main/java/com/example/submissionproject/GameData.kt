@@ -174,6 +174,20 @@ object GameData {
             R.drawable.pokemon_sword
     )
 
+    private val shortDescription = arrayOf(
+        "Escape to Your Personal Island Paradise! Bundle up, it's sweater weather!",
+        "When the moon tore apart, the sky bled red with light, ushering in an apocalyptic new age…and to survive, you must fight.",
+        "Return to the World of Ivalice… The curtain lifts on an epic adventure in the search for freedom.",
+        "Three territories. Three houses. Your very own journey.",
+        "Rise above despair! Devour monstrous gods with your allies!",
+        "Race and battle your friends in the definitive version of Mario Kart 8.",
+        "Hunting season is open! This critically acclaimed action RPG series makes its debut on Nintendo Switch.",
+        "Rise to the challenge and join the hunt!\n" +
+        "Pre-order bonus available now",
+        "Get ready for the next Pokémon adventure in the Pokémon™ Sword and Pokémon™ Shield games.",
+        "Get ready for the next Pokémon adventure in the Pokémon™ Sword and Pokémon™ Shield games."
+    )
+
     val listData: ArrayList<Game>
         get() {
             val list = arrayListOf<Game>()
@@ -181,6 +195,7 @@ object GameData {
                 val game = Game()
                 game.title = gameTitles[position]
                 game.description = gameDescription[position]
+                game.shortDescription = shortDescription[position]
                 game.developer = gameDevelopers[position]
                 game.msrp = gameMSRP[position]
                 game.currentPrice = gamePrice[position]

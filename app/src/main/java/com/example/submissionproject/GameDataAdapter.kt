@@ -12,7 +12,7 @@ import com.bumptech.glide.request.RequestOptions
 class GameDataAdapter (private val gameList: ArrayList<Game>): RecyclerView.Adapter<GameDataAdapter.GameDataHolder>() {
     inner class GameDataHolder (items: View): RecyclerView.ViewHolder(items) {
         val gameTitle: TextView =items.findViewById(R.id.game_title)
-        val gameDesc: TextView = items.findViewById(R.id.game_desc)
+        val gameDesc: TextView = items.findViewById(R.id.game_short_desc)
         val gamePrice: TextView = items.findViewById(R.id.current_price)
         val gamePic: ImageView = items.findViewById(R.id.product_image)
     }
@@ -29,7 +29,7 @@ class GameDataAdapter (private val gameList: ArrayList<Game>): RecyclerView.Adap
                 .apply(RequestOptions().override(350, 550))
                 .into(holder.gamePic)
         holder.gameTitle.text = game.title
-        holder.gameDesc.text = game.description
+        holder.gameDesc.text = game.shortDescription
         holder.gamePrice.text = game.currentPrice
     }
 
