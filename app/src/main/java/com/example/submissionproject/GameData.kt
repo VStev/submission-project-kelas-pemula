@@ -175,17 +175,17 @@ object GameData {
     )
 
     private val shortDescription = arrayOf(
-        "Escape to Your Personal Island Paradise! Bundle up, it's sweater weather!",
+        "Escape to Your Personal Island Paradise! Bundle up, it's sweater weather, but luckily, it’s also ushering in warm holiday cheer!",
         "When the moon tore apart, the sky bled red with light, ushering in an apocalyptic new age…and to survive, you must fight.",
-        "Return to the World of Ivalice… The curtain lifts on an epic adventure in the search for freedom.",
-        "Three territories. Three houses. Your very own journey.",
-        "Rise above despair! Devour monstrous gods with your allies!",
-        "Race and battle your friends in the definitive version of Mario Kart 8.",
+        "Return to the World of Ivalice… The curtain lifts on an epic adventure in the search for freedom from the empire.",
+        "Three territories. Three houses. Your very own journey. War is coming, and Fódlan must be ready.",
+        "Rise above despair! Devour monstrous gods with your allies! And jump into the fray of lightning-fast battle as you wield your God Arc!",
+        "Race and battle your friends in the definitive version of Mario Kart 8, with online and local multiplayer available.",
         "Hunting season is open! This critically acclaimed action RPG series makes its debut on Nintendo Switch.",
         "Rise to the challenge and join the hunt!\n" +
-        "Pre-order bonus available now",
-        "Get ready for the next Pokémon adventure in the Pokémon™ Sword and Pokémon™ Shield games.",
-        "Get ready for the next Pokémon adventure in the Pokémon™ Sword and Pokémon™ Shield games."
+        "Pre-order bonus available now, and it includes layered armors!",
+        "Get ready for the next Pokémon adventure in the Galar Region of Pokémon™ Sword and Pokémon™ Shield games.",
+        "Get ready for the next Pokémon adventure in the Galar Region of Pokémon™ Sword and Pokémon™ Shield games."
     )
 
     val listData: ArrayList<Game>
