@@ -48,8 +48,4 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-
-    fun showIndex(data:Int){
-        Toast.makeText(this, "Kamu memilih inderx ke " + data, Toast.LENGTH_SHORT).show()
-    }
 }

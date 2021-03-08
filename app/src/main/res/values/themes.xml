@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.SubmissionProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/dekured</item>
+        <item name="colorPrimary">@color/dekublue</item>
         <item name="colorPrimaryVariant">@color/dekublue</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
