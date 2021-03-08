@@ -24,6 +24,8 @@
             android:layout_toEndOf="@id/product_image"
             android:textSize="22sp"
             android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="2"
             android:text="@string/product_name"/>
 
         <TextView
@@ -35,7 +37,8 @@
             android:layout_below="@id/game_title"
             android:text="@string/product_details"
             android:textSize="14sp"
-            android:maxLines="5"/>
+            android:maxLines="3"
+            android:ellipsize="end"/>
 
         <TextView
             android:id="@+id/current_price"

@@ -8,4 +8,5 @@ class Game {
     var msrp: String = ""
     var currentPrice: String = ""
     var gameCover: Int = 0
+    var gamePoster: Int = 0
 }

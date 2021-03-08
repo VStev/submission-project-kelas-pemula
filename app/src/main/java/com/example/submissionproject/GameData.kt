@@ -123,29 +123,29 @@ object GameData {
     )
 
     private val gameMSRP = arrayOf(
-            "$ 59.99",
-            "$ 59.99",
-            "$ 59.99",
-            "$ 59.99",
-            "$ 59.99",
-            "$ 59.99",
-            "$ 39.99",
-            "$ 59.99",
-            "$ 59.99",
-            "$ 59.99"
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 39.99",
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 59.99",
+            "MSRP\n$ 59.99"
     )
 
     private val gamePrice = arrayOf(
-            "$ 49.99",
-            "$ 59.99",
-            "$ 49.99",
-            "$ 49.99",
-            "$ 29.99",
-            "$ 49.99",
-            "$ 24.99",
-            "$ 59.99",
-            "$ 49.99",
-            "$ 49.99"
+            "Current Price\n$ 49.99",
+            "Current Price\n$ 59.99",
+            "Current Price\n$ 49.99",
+            "Current Price\n$ 49.99",
+            "Current Price\n$ 29.99",
+            "Current Price\n$ 49.99",
+            "Current Price\n$ 24.99",
+            "Current Price\n$ 59.99",
+            "Current Price\n$ 49.99",
+            "Current Price\n$ 49.99"
     )
 
     private val gameDevelopers = arrayOf(
@@ -174,6 +174,19 @@ object GameData {
             R.drawable.pokemon_sword
     )
 
+    private val gamePoster = arrayOf(
+            R.drawable.animal_crossing_new_horizon_cover,
+            R.drawable.daemon_x_machina_cover,
+            R.drawable.final_fantasy_xii_tza_cover,
+            R.drawable.fire_emblem_three_houses_cover,
+            R.drawable.god_eater_3_cover,
+            R.drawable.mario_kart_8_deluxe_cover,
+            R.drawable.monster_hunter_generations_ultimate_cover,
+            R.drawable.monster_hunter_rise_cover,
+            R.drawable.pokemon_shield_cover,
+            R.drawable.pokemon_sword_cover
+    )
+
     private val shortDescription = arrayOf(
         "Escape to Your Personal Island Paradise! Bundle up, it's sweater weather, but luckily, it’s also ushering in warm holiday cheer!",
         "When the moon tore apart, the sky bled red with light, ushering in an apocalyptic new age…and to survive, you must fight.",
@@ -200,6 +213,7 @@ object GameData {
                 game.msrp = gameMSRP[position]
                 game.currentPrice = gamePrice[position]
                 game.gameCover = gameCovers[position]
+                game.gamePoster = gamePoster[position]
                 list.add(game)
             }
             return list
