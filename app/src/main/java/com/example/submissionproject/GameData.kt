@@ -16,20 +16,20 @@ object GameData {
 
     private val gameDescription = arrayOf(
             "Escape to Your Personal Island Paradise\n" +
-                    "Bundle up, it’s sweater weather! Colder weather may be arriving, but luckily, it’s also ushering in warm holiday cheer in the Animal Crossing: New Horizons game for the Nintendo Switch system. Alongside the auburn-colored maple leaves that are beginning to drift down from the trees, islands located in the Northern Hemisphere will be visited by tranquil blankets of snow. Plus, on Nov. 19, a free update* will arrive for Animal Crossing: New Horizons, introducing holiday events and enhancements, giving you opportunities to connect** with friends and family and enjoy island life together with your Animal Crossing: New Horizons residents.\n" +
+                    "Bundle up, it’s sweater weather! Colder weather may be arriving, but luckily, it’s also ushering in warm holiday cheer in the Animal Crossing: New Horizons game for the Nintendo Switch system. Alongside the auburn-colored maple leaves that are beginning to drift down from the trees, islands located in the Northern Hemisphere will be visited by tranquil blankets of snow. Plus, on Nov. 19, a free update will arrive for Animal Crossing: New Horizons, introducing holiday events and enhancements, giving you opportunities to connect with friends and family and enjoy island life together with your Animal Crossing: New Horizons residents.\n" +
                     "\n" +
-                    "If you’re looking to spend quality holiday time with friends and family virtually, special occasions*** such as Turkey Day on Nov. 26 and Toy Day on Dec. 24 will be added with the new update, delivering holiday events that can be experienced with others. It’s a great time of year to welcome visitors over and show off your island while enjoying each other’s company. The winter update also brings new Reactions and hairstyles to Animal Crossing: New Horizons, an upgrade option for expanded in-game home item storage, and save data transfer capabilities.*\n" +
+                    "If you’re looking to spend quality holiday time with friends and family virtually, special occasions such as Turkey Day on Nov. 26 and Toy Day on Dec. 24 will be added with the new update, delivering holiday events that can be experienced with others. It’s a great time of year to welcome visitors over and show off your island while enjoying each other’s company. The winter update also brings new Reactions and hairstyles to Animal Crossing: New Horizons, an upgrade option for expanded in-game home item storage, and save data transfer capabilities.\n" +
                     "\n" +
                     "Escape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round.\n" +
                     "\n" +
-                    "Show off your island utopia to family and friends—or pack your bags and visit theirs. Whether playing online* or with others beside you**, island living is even better when you can share it. Even without hopping on a flight, you’ll meet a cast of charming animal residents bursting with personality. Friendly faces like Tom Nook and Isabelle will lend their services and happily help you grow your budding community. Escape to your island getaway—however, whenever, and wherever you want.\n" +
+                    "Show off your island utopia to family and friends—or pack your bags and visit theirs. Whether playing online or with others beside you, island living is even better when you can share it. Even without hopping on a flight, you’ll meet a cast of charming animal residents bursting with personality. Friendly faces like Tom Nook and Isabelle will lend their services and happily help you grow your budding community. Escape to your island getaway—however, whenever, and wherever you want.\n" +
                     "\n" +
-                    "Build your community from scratch on a deserted island brimming with possibility\n" +
-                    "Create your personal getaway and customize your character, home, decorations, and even the landscape itself\n" +
-                    "Collect materials to construct everything from furniture to tools! Then, use what you create to give your island a personal touch\n" +
-                    "Watch as the time of day and seasons match real life—even your hemisphere! Each day holds potential for surprises and discoveries\n" +
-                    "Get to know the island residents, garden, fish, decorate, hunt for fossils, and more!\n" +
-                    "Show off your paradise – play on the same system with a total of 4 people**, or play together online* or over local wireless** for fun with up to 8 players",
+                    "-Build your community from scratch on a deserted island brimming with possibility\n" +
+                    "-Create your personal getaway and customize your character, home, decorations, and even the landscape itself\n" +
+                    "-Collect materials to construct everything from furniture to tools! Then, use what you create to give your island a personal touch\n" +
+                    "-Watch as the time of day and seasons match real life—even your hemisphere! Each day holds potential for surprises and discoveries\n" +
+                    "-Get to know the island residents, garden, fish, decorate, hunt for fossils, and more!\n" +
+                    "-Show off your paradise – play on the same system with a total of 4 people, or play together online or over local wireless for fun with up to 8 players",
             "Defend the planet through high-speed mech action\n" +
                     "When the moon tore apart, the sky bled red with light, ushering in an apocalyptic new age…and to survive, you must fight. As a mercenary, defend Earth through high-speed combat against corrupted robots in a series of missions from the cockpit of your Arsenal, a fully customizable mech. Equip your Arsenal with a vast array of parts and weapons, obtain more from downed enemy Arsenals, and swap them on the fly to suit your strategy in the face of ever-rising threats.\n" +
                     "\n" +
@@ -39,7 +39,7 @@ object GameData {
                     "• Kenichiro Tsukuda, well known for his work developing the Armored Core series, and his talented team have developed this brand-new title with the goal of making it “the best mech action game” out there\n" +
                     "• The player’s avatar and Arsenal are fully customizable with a variety of options\n" +
                     "• Defeated enemies may drop ammo and weapons, which the player can obtain and use on the fly\n" +
-                    "• Squad up with three other players* to destroy titanic bosses in online** Co-op mode\n" +
+                    "• Squad up with three other players to destroy titanic bosses in online Co-op mode\n" +
                     "• Mech designs created by Mr. Kawamori, who also worked on the Armored Core series and the Super Dimension Fortress Macross series",
             "Return to the World of Ivalice… The curtain lifts on an epic adventure in the search for freedom.\n" +
                     "Return to the World of Ivalice…\n" +
@@ -113,11 +113,11 @@ object GameData {
                     "\n" +
                     "Whether it’s at home, on the go, online or offline - you’ll always be ready for your next hunt on the Nintendo Switch™!",
             "Get ready for the next Pokémon adventure in the Pokémon™ Sword and Pokémon™ Shield games.\n" +
-                    "A new generation of Pokémon is coming to the Nintendo Switch™ system. Begin your adventure as a Pokémon Trainer by choosing one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the new Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the new multiplayer co-op Max Raid Battles* in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon.\n" +
+                    "A new generation of Pokémon is coming to the Nintendo Switch™ system. Begin your adventure as a Pokémon Trainer by choosing one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the new Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the new multiplayer co-op Max Raid Battles in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon.\n" +
                     "\n" +
                     "Certain Pokémon can even Gigantamax to gain a new look and a powerful set of G-Max moves. But there’s more to being a champion than honing your battle skills: you can pick your own clothes and get a new hairdo while visiting the stores in town, so you can be the trainer you want to be. Throughout your journey, you’ll encounter newly discovered Pokémon as well as familiar ones that will look a little different in their new Galarian forms! For another way to level up your Pokémon, assign them Poké Jobs to complete, and for fun, you can even play with your Pokémon in Pokémon Camp!",
             "Get ready for the next Pokémon adventure in the Pokémon™ Sword and Pokémon™ Shield games.\n" +
-                    "A new generation of Pokémon is coming to the Nintendo Switch™ system. Begin your adventure as a Pokémon Trainer by choosing one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the new Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the new multiplayer co-op Max Raid Battles* in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon.\n" +
+                    "A new generation of Pokémon is coming to the Nintendo Switch™ system. Begin your adventure as a Pokémon Trainer by choosing one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. Then embark on a journey in the new Galar region, where you’ll challenge the troublemakers of Team Yell, while unraveling the mystery behind the Legendary Pokémon Zacian and Zamazenta! Explore the Wild Area, a vast expanse of land where the player can freely control the camera. Team up with three other players locally or online in the new multiplayer co-op Max Raid Battles in which players will face off against gigantic and super-strong Pokémon known as Dynamax Pokémon.\n" +
                     "\n" +
                     "Certain Pokémon can even Gigantamax to gain a new look and a powerful set of G-Max moves. But there’s more to being a champion than honing your battle skills: you can pick your own clothes and get a new hairdo while visiting the stores in town, so you can be the trainer you want to be. Throughout your journey, you’ll encounter newly discovered Pokémon as well as familiar ones that will look a little different in their new Galarian forms! For another way to level up your Pokémon, assign them Poké Jobs to complete, and for fun, you can even play with your Pokémon in Pokémon Camp!"
     )
@@ -201,6 +201,19 @@ object GameData {
         "Get ready for the next Pokémon adventure in the Galar Region of Pokémon™ Sword and Pokémon™ Shield games."
     )
 
+    private val favoriteStatus = arrayOf(
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    )
+
     val listData: ArrayList<Game>
         get() {
             val list = arrayListOf<Game>()
@@ -214,6 +227,7 @@ object GameData {
                 game.currentPrice = gamePrice[position]
                 game.gameCover = gameCovers[position]
                 game.gamePoster = gamePoster[position]
+                game.favStatus = favoriteStatus[position]
                 list.add(game)
             }
             return list

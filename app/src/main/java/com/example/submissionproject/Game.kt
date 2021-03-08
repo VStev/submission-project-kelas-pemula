@@ -7,6 +7,7 @@ class Game {
     var developer: String = ""
     var msrp: String = ""
     var currentPrice: String = ""
+    var favStatus: Int = 0
     var gameCover: Int = 0
     var gamePoster: Int = 0
 }
