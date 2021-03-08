@@ -30,4 +30,11 @@
         android:textSize="20sp"
         android:text="markusssandreas@gmail.com"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/based_on_the_website_dekudeals"/>
+
 </LinearLayout>
