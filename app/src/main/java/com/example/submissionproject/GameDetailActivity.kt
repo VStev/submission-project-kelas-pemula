@@ -35,6 +35,7 @@ class GameDetailActivity : AppCompatActivity() {
         games.addAll(GameData.listData)
         val data = games[position]
         val text = "Developed by : ${data.developer}"
+        supportActionBar?.title = data.title
         Glide.with(this)
             .load(data.gamePoster)
             .into(posterImg)

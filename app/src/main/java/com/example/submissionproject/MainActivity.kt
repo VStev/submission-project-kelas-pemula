@@ -3,6 +3,8 @@ package com.example.submissionproject
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -19,6 +21,18 @@ class MainActivity : AppCompatActivity() {
         recycleview.setHasFixedSize(true)
         list.addAll(GameData.listData)
         showLayout()
+        supportActionBar?.title = "Deku Deals"
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menubar, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val about = Intent(this@MainActivity, AboutActivity::class.java)
+        startActivity(about)
+        return super.onOptionsItemSelected(item)
     }
 
     private fun showLayout(){
@@ -33,9 +47,5 @@ class MainActivity : AppCompatActivity() {
                 startActivity(moveIntent)
             }
         })
-    }
-
-    fun showIndex(data:Int){
-        Toast.makeText(this, "Kamu memilih inderx ke " + data, Toast.LENGTH_SHORT).show()
     }
 }
