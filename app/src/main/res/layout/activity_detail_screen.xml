@@ -82,7 +82,7 @@
             android:text="@string/btn_fav"
             android:layout_marginRight="16dp"
             android:layout_marginLeft="16dp"
-            android:backgroundTint="@color/dekured"
+            style="@style/buttonColor"
             />
 
     </LinearLayout>
