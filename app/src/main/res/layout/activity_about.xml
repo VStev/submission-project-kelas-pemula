@@ -21,14 +21,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="24sp"
-        android:text="Markus Andreas"/>
+        android:text="@string/markus_andreas"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="20sp"
-        android:text="markusssandreas@gmail.com"/>
+        android:text="@string/markusssandreas_gmail_com"/>
 
     <TextView
         android:layout_width="wrap_content"

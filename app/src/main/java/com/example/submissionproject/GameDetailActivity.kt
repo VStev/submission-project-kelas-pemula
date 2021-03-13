@@ -1,14 +1,12 @@
 package com.example.submissionproject
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 
 class GameDetailActivity : AppCompatActivity() {
     private val games: ArrayList<Game> = arrayListOf()
@@ -23,7 +21,7 @@ class GameDetailActivity : AppCompatActivity() {
         setLayout()
     }
 
-    fun setLayout(){
+    private fun setLayout(){
         val posterImg: ImageView = findViewById(R.id.game_poster)
         val gameTitle: TextView = findViewById(R.id.game_title)
         val gameMSRP: TextView = findViewById(R.id.game_msrp)
@@ -48,7 +46,7 @@ class GameDetailActivity : AppCompatActivity() {
         btnFavorite.setOnClickListener{setFav(data)}
     }
 
-    fun setFav(data: Game){
+    private fun setFav(data: Game){
         if (data.favStatus == 0) Toast.makeText(this.applicationContext, "You've set ${data.title} as your favorite." , Toast.LENGTH_SHORT).show() else Toast.makeText(this.applicationContext, "You no longer set ${data.title} as your favorite." , Toast.LENGTH_SHORT).show()
         data.favStatus = if (data.favStatus == 0) 1 else 0
         setLayout()

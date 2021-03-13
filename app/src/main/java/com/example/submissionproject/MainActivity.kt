@@ -1,11 +1,10 @@
 package com.example.submissionproject
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -41,9 +40,9 @@ class MainActivity : AppCompatActivity() {
         recycleview.adapter = dataAdapter
 
         dataAdapter.setOnItemClickCallback(object: GameDataAdapter.OnItemClickCallback{
-            override fun onItemClicked(data: Int) {
+            override fun onItemClicked(position: Int) {
                 val moveIntent = Intent(this@MainActivity, GameDetailActivity::class.java)
-                moveIntent.putExtra(GameDetailActivity.EXTRA_POSITION, data)
+                moveIntent.putExtra(GameDetailActivity.EXTRA_POSITION, position)
                 startActivity(moveIntent)
             }
         })
